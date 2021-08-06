@@ -7,12 +7,11 @@ root.withdraw()
 
 def loadSingleFile():
     file_path = filedialog.askopenfilename()
-    print("loadSingleFile: ",file_path)
     return file_path
 
-# For multiples files, name's'
-# file_path = filedialog.askopenfilenames()
 
-
+def loadMultipleFiles():
+    file_path = filedialog.askopenfilenames()
+    return file_path
 
 
