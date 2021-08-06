@@ -6,7 +6,7 @@ from PIL import Image
 main_path = os.getcwd()
 
 # Manually set file paths
-image_path = f"{main_path}/Pokedex/"
+image_path = f"{main_path}/InputImages/"
 new_path = f"{main_path}/Output/"
 Path(new_path).mkdir(parents=True, exist_ok=True)
 
